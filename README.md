@@ -1,2 +1,2 @@
-# scripts-bin-thinkpad-x220
-Scripts from Thinkpad x220
+# scripts-bin-thinkpad-x201
+Scripts from Thinkpad x201
