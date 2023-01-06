@@ -6,7 +6,7 @@
 readonly TEMP_ICON="/etc/icons/sensors-temperature-symbolic.svg"
 
 # Kernel values
-readonly TEMP="`/usr/bin/sensors | /usr/bin/grep -E 'Package id 0' | /usr/bin/awk '{print $4}'`"
+readonly TEMP="`/usr/bin/sensors | /usr/bin/grep -E 'CPU' | /usr/bin/awk '{print $2}'`"
 readonly SENSORS="`/usr/bin/sensors | grep -v -e 'temp[2-8]'`"
 
 # Panel
